@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 
-# Invoke the browser and navigate to the user
+# Invoke the browser and navigate to the url
 option=Options()
 option.add_argument('--headless')
 option.add_argument('--disable-gpu')
@@ -52,7 +52,6 @@ print("programme execution completed.")
 # The total number of rows found = 10
 # The total number of columns found = 7
 # Instructor    Course    Price
-# Alex Engineer Chennai
 # Rahul Shetty Selenium Webdriver with Java Basics + Advanced + Interview Guide 30
 # Rahul Shetty Learn SQL in Practical + Database Testing from Scratch 25
 # Rahul Shetty Appium (Selenium) - Mobile Automation Testing from Scratch 30
