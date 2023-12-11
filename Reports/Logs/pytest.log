@@ -1,0 +1,82 @@
+2023-12-11 15:08:58,450:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 15:08:58,512:INFO:test_product_details:product_details verified successfully
+2023-12-11 15:09:03,773:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 15:09:03,988:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 15:09:03,989:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 15:09:04,222:INFO:test_calculate_discount:order placed
+2023-12-11 15:23:55,778:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 15:23:55,843:INFO:test_product_details:product_details verified successfully
+2023-12-11 15:24:01,124:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 15:24:01,344:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 15:24:01,345:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 15:24:01,525:INFO:test_calculate_discount:order placed
+2023-12-11 15:24:54,336:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 15:24:54,400:INFO:test_product_details:product_details verified successfully
+2023-12-11 15:24:59,673:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 15:24:59,903:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 15:24:59,904:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 15:25:00,197:INFO:test_calculate_discount:order placed
+2023-12-11 21:33:18,333:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 21:33:18,391:INFO:test_product_details:product_details verified successfully
+2023-12-11 21:33:23,661:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 21:33:23,781:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 21:33:23,781:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 21:33:23,870:INFO:test_calculate_discount:order placed
+2023-12-11 21:34:10,019:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 21:34:10,106:INFO:test_product_details:product_details verified successfully
+2023-12-11 21:34:15,406:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 21:34:15,501:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 21:34:15,501:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 21:34:15,590:INFO:test_calculate_discount:order placed
+2023-12-11 21:46:33,809:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 21:46:33,881:INFO:test_product_details:product_details verified successfully
+2023-12-11 21:46:39,179:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 21:46:39,294:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 21:46:39,294:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 21:46:39,383:INFO:test_calculate_discount:order placed
+2023-12-11 22:04:56,121:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 22:04:56,208:INFO:test_product_details:product_details verified successfully
+2023-12-11 22:05:01,444:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 22:05:01,531:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 22:05:01,531:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 22:05:01,630:INFO:test_calculate_discount:order placed
+2023-12-11 22:12:46,253:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 22:12:46,313:INFO:test_product_details:product_details verified successfully
+2023-12-11 22:12:51,583:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 22:12:51,677:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 22:12:51,677:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 22:12:51,766:INFO:test_calculate_discount:order placed
+2023-12-11 22:56:01,375:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 22:56:01,439:INFO:test_product_details:product_details verified successfully
+2023-12-11 23:03:23,496:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 23:03:23,553:INFO:test_product_details:product_details verified successfully
+2023-12-11 23:03:28,756:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 23:03:28,854:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 23:03:28,854:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 23:03:28,954:INFO:test_calculate_discount:order placed
+2023-12-11 23:04:18,934:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 23:04:18,981:INFO:test_product_details:product_details verified successfully
+2023-12-11 23:04:24,260:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 23:04:24,364:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 23:04:24,364:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 23:04:24,466:INFO:test_calculate_discount:order placed
+2023-12-11 23:07:05,987:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 23:07:06,036:INFO:test_product_details:product_details verified successfully
+2023-12-11 23:07:11,322:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 23:07:11,417:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 23:07:11,417:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 23:07:11,506:INFO:test_calculate_discount:order placed
+2023-12-11 23:09:18,215:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 23:09:18,261:INFO:test_product_details:product_details verified successfully
+2023-12-11 23:18:01,769:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 23:18:01,821:INFO:test_product_details:product_details verified successfully
+2023-12-11 23:18:07,076:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 23:18:07,171:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 23:18:07,171:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 23:18:07,278:INFO:test_calculate_discount:order placed
+2023-12-11 23:24:19,029:INFO:test_promopage_loading:page  loaded successfully.
+2023-12-11 23:24:19,076:INFO:test_product_details:product_details verified successfully
+2023-12-11 23:24:24,354:INFO:test_apply_promocode:promocode applied successfully:
+2023-12-11 23:24:24,458:INFO:test_calculate_discount:Discount not  applied
+2023-12-11 23:24:24,458:INFO:test_calculate_discount:Discount price verified  after applying promocode.
+2023-12-11 23:24:24,564:INFO:test_calculate_discount:order placed
