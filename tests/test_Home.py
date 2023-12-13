@@ -31,6 +31,6 @@ class Test_home(BaseClass):
         country.return_to_homepage()
         print('Test passed successfully')
 
-    @pytest.fixture(params=Promo_coupons.promo_codes)
-    def Testdata(self, request):
-        return request.param
+    # @pytest.fixture(params=Promo_coupons.promo_codes)
+    # def Testdata(self, request):
+    #     return request.param

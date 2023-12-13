@@ -2,12 +2,10 @@ import pytest
 from selenium.webdriver.common.by import By
 import sys
 
+sys.path.append('G:\\Selenium')
 from pom.Validate_items import Item_validation
 from pom.collect_items import Search_product
 from testdata.Items_names import item
-
-sys.path.append('G:\\Selenium')
-
 from utilities.Baseclass import BaseClass
 
 Veg_names = []

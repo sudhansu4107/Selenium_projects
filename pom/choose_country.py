@@ -10,6 +10,7 @@ from utilities.Baseclass import BaseClass
 
 
 class Country(BaseClass):
+    #  Select Country page locators
     page_title = (By.XPATH, '//label[text()="Choose Country"]')
     checkbox = (By.CSS_SELECTOR, '.chkAgree')
     term_and_condition = (By.XPATH, '//a[text()="Terms & Conditions"]')
@@ -27,12 +28,10 @@ class Country(BaseClass):
         print('Country choose page loaded successfully')
 
     def select_country_and_proceed(self):
-        # drp = Select(self.driver.find_element(By.XPATH, '//select'))
-        # drp.select_by_value('India')
         self.Select_value_from_dropdown(locator=Country.select, value='India')
-        self.driver.find_element(By.CSS_SELECTOR, '.chkAgree').click()
-        assert self.driver.find_element(By.XPATH, '//a[text()="Terms & Conditions"]').text == 'Terms & Conditions'
-        self.driver.find_element(By.XPATH, '//button[text()="Proceed"]').click()
+        self.driver.find_element(*Country.checkbox).click()
+        assert self.driver.find_element(*Country.term_and_condition).text == 'Terms & Conditions'
+        self.driver.find_element(*Country.proceed).click()
         print('Test completed successfully')
 
     def return_to_homepage(self):
