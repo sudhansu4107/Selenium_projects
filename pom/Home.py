@@ -21,6 +21,7 @@ class Kart(BaseClass):
     Price_of_the_Cart_Items = (By.XPATH, '//table/tbody/tr[2]/td[3]')
     Cart_icon = (By.CSS_SELECTOR, '.cart-icon')
     Proceed_to_checkout = (By.XPATH, '//button[text()="PROCEED TO CHECKOUT"]')
+    empty_cart = (By.XPATH, '(//h2[text()="You cart is empty!"])[1]')
 
     def __init__(self, driver):
         self.driver = driver
@@ -62,5 +63,13 @@ class Kart(BaseClass):
         self.driver.find_element(*Kart.Cart_icon).click()
         self.wait_for_element_By_Xpath('//button[text()="PROCEED TO CHECKOUT"]')
         self.driver.find_element(*Kart.Proceed_to_checkout).click()
+
+    def test_empty_cart(self):
+        self.driver.find_element(*Kart.Cart_icon).click()
+        self.wait_for_element_By_Css_selector('.empty-cart')
+        cart_text = self.driver.find_element(*Kart.empty_cart).text
+        assert cart_text=='You cart is empty!'
+        self.driver.find_element(*Kart.Cart_icon).click()
+
 
     print('Test passed successfully')

@@ -2,9 +2,11 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import ChromiumOptions
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 
 driver = None
-service_obj=None
+service_obj = None
+
 
 def pytest_addoption(parser):
     parser.addoption(
@@ -15,6 +17,9 @@ def pytest_addoption(parser):
 @pytest.fixture(scope='class')
 def Browser(request):
     print('Browser opened.')
+    # option = Options()
+    # option.add_argument('--headless')
+    # option.add_argument('--disable-gpu')
     Browsername = request.config.getoption('browser')
     global driver
     global service_obj
@@ -67,6 +72,5 @@ def pytest_runtest_makereport(item):
 
 
 def _capture_screenshot(name):
-
     Filepath = r'G:\\Selenium\\Reports\\Screenshots'
     driver.get_screenshot_as_file(Filepath + "/" + name)

@@ -28,6 +28,14 @@ class BaseClass:
         wait = WebDriverWait(self.driver, 10)
         wait.until(Ec.presence_of_element_located((By.CSS_SELECTOR, locator)))
 
+    def wait_for_element_By_Xpath_Visible(self, locator):
+        wait = WebDriverWait(self.driver, 10)
+        wait.until(Ec.text_to_be_present_in_element((By.XPATH, locator),'ADD TO CART'))
+
+    def wait_for_element_By_Css_Visible(self, locator):
+        wait = WebDriverWait(self.driver, 10)
+        wait.until(Ec.presence_of_element_located((By.CSS_SELECTOR, locator)))
+
     def Select_value_from_dropdown(self, locator, value):
         drp = Select(self.driver.find_element(By.XPATH, locator))
         drp.select_by_value(value)
